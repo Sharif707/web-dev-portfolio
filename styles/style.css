@@ -1,0 +1,274 @@
+/* imported code */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+li {
+  list-style: none;
+}
+button,
+input {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
+header {
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.nav-title > span {
+  color: #fd6e0a;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.list-container li a {
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 18px 35px;
+}
+.dark-1 {
+  color: #181818;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+.primary-bg-color {
+  background-color: #fd6e0a;
+}
+
+/* banner section */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 35px 0 200px;
+}
+.banner-content {
+  max-width: 585px;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+.button-section {
+  display: flex;
+  gap: 30px;
+}
+.banner-description {
+  font-size: 18px;
+
+  margin-bottom: 30px;
+}
+.btn-primary > span {
+  margin-left: 10px;
+}
+
+/* main section styling */
+
+main {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 130px 150px;
+}
+.about-section {
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.section-title {
+  font-size: 35px;
+  color: #181818;
+  font-weight: bold;
+}
+.section-descripttion {
+  margin: 30px 0;
+  text-align: justify;
+}
+.about-items {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.item-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.item-description {
+  color: #474747;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+/* skills section */
+.skills-container {
+  display: flex;
+  gap: 20px;
+}
+.skills {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 130px 150px;
+}
+.skill-box {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  font-size: 16px;
+}
+.skill-lang {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* resume section styling */
+.resume-section {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 130px 150px;
+}
+.personal-info {
+  display: flex;
+  margin-top: 110px;
+  gap: 22px;
+}
+.summary {
+  text-align: center;
+}
+.resume-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.qualicfication-info {
+  margin: 30px 0;
+}
+.degree-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+}
+.varsity-name {
+  margin-top: 10px;
+  color: #757575;
+  font-weight: 600;
+}
+.short-description {
+  margin: 20px 0 30px 0;
+  color: #757575;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+.horizontal-line {
+  height: 1px;
+
+  background-color: #d1d1d1;
+}
+
+.download-btn {
+  background-color: #fd6e0a;
+
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 18px 17px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 0 auto;
+}
+.download-btn span {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #d9d9d9;
+  padding: 130px 150px;
+}
+.footer-section {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.link-section,
+.form-fillup {
+  width: 50%;
+
+}
+.social-links {
+  display: flex;
+
+  gap: 24px;
+}
+.social-links > i {
+  color: #fd6e0a;
+  font-weight: bold;
+}
+.form-fillup form{
+ 
+}
+.form-fillup > h3{
+  margin-bottom: 28px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.form-fillup form input[type="text"],
+input[type="email"],
+textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  
+}
+.form-btn{
+  display: inline;
+}
